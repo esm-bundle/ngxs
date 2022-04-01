@@ -105,7 +105,5 @@ dist
 
 esm
 system
-
-# fake stuff
-.my-git-credentials
-.my-git-credentials-backup
+es5
+es2015
