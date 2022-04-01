@@ -30,7 +30,7 @@ specifiers:
   rollup: 2.70.1
   rollup-plugin-terser: 7.0.2
   rxjs: 7.5.5
-  tslib: 2.3.0
+  tslib: 2.3.1
   typescript: 4.6.2
 
 devDependencies:
@@ -63,7 +63,7 @@ devDependencies:
   rollup: 2.70.1
   rollup-plugin-terser: 7.0.2_rollup@2.70.1
   rxjs: 7.5.5
-  tslib: 2.3.0
+  tslib: 2.3.1
   typescript: 4.6.2
 
 packages:
@@ -3090,10 +3090,6 @@ packages:
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
-    dev: true
-
-  /tslib/2.3.0:
-    resolution: {integrity: sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==}
     dev: true
 
   /tslib/2.3.1:
