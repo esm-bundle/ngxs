@@ -51,7 +51,7 @@
     "@ngxs/store": "3.7.3",
     "@ngxs/websocket-plugin": "3.7.3",
     "@rollup/plugin-babel": "5.3.1",
-    "@rollup/plugin-node-resolve": "13.2.0",
+    "@rollup/plugin-node-resolve": "13.2.1",
     "concurrently": "7.1.0",
     "husky": "7.0.4",
     "karma": "6.3.18",
