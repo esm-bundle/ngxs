@@ -1,12 +1,12 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/common': 13.3.5
-  '@angular/compiler': 13.3.5
-  '@angular/compiler-cli': 13.3.5
-  '@angular/core': 13.3.5
-  '@angular/forms': 13.3.5
-  '@angular/router': 13.3.5
+  '@angular/common': 13.3.7
+  '@angular/compiler': 13.3.7
+  '@angular/compiler-cli': 13.3.7
+  '@angular/core': 13.3.7
+  '@angular/forms': 13.3.7
+  '@angular/router': 13.3.7
   '@ngxs/devtools-plugin': 3.7.3
   '@ngxs/form-plugin': 3.7.3
   '@ngxs/logger-plugin': 3.7.3
@@ -34,19 +34,19 @@ specifiers:
   typescript: 4.6.4
 
 devDependencies:
-  '@angular/common': 13.3.5_@angular+core@13.3.5+rxjs@7.5.5
-  '@angular/compiler': 13.3.5
-  '@angular/compiler-cli': 13.3.5_b07c62e2cc9b87cabff59ee153cd6f69
-  '@angular/core': 13.3.5_rxjs@7.5.5
-  '@angular/forms': 13.3.5_5c5944ef1c3b5c8364844f4272aa3b98
-  '@angular/router': 13.3.5_5c5944ef1c3b5c8364844f4272aa3b98
-  '@ngxs/devtools-plugin': 3.7.3_5b4c2284b75a459b1f4f4b7a9a3cfb57
-  '@ngxs/form-plugin': 3.7.3_7efea90737ef2291910b34016c85c385
-  '@ngxs/logger-plugin': 3.7.3_5b4c2284b75a459b1f4f4b7a9a3cfb57
-  '@ngxs/router-plugin': 3.7.3_fe504fa8cd1b54d6268a692a702862fe
-  '@ngxs/storage-plugin': 3.7.3_5b4c2284b75a459b1f4f4b7a9a3cfb57
-  '@ngxs/store': 3.7.3_@angular+core@13.3.5+rxjs@7.5.5
-  '@ngxs/websocket-plugin': 3.7.3_5b4c2284b75a459b1f4f4b7a9a3cfb57
+  '@angular/common': 13.3.7_@angular+core@13.3.7+rxjs@7.5.5
+  '@angular/compiler': 13.3.7
+  '@angular/compiler-cli': 13.3.7_43b3a48857112947fff968eec096951b
+  '@angular/core': 13.3.7_rxjs@7.5.5
+  '@angular/forms': 13.3.7_0224d8b42ede6760f9a75cbd01734008
+  '@angular/router': 13.3.7_0224d8b42ede6760f9a75cbd01734008
+  '@ngxs/devtools-plugin': 3.7.3_436e7616a362f6ff92466028e5c86653
+  '@ngxs/form-plugin': 3.7.3_8825c0f23286d0d920fabf1c3d89a84f
+  '@ngxs/logger-plugin': 3.7.3_436e7616a362f6ff92466028e5c86653
+  '@ngxs/router-plugin': 3.7.3_778ac152caecb5578775145fda6d9209
+  '@ngxs/storage-plugin': 3.7.3_436e7616a362f6ff92466028e5c86653
+  '@ngxs/store': 3.7.3_@angular+core@13.3.7+rxjs@7.5.5
+  '@ngxs/websocket-plugin': 3.7.3_436e7616a362f6ff92466028e5c86653
   '@rollup/plugin-babel': 5.3.1_rollup@2.72.1
   '@rollup/plugin-node-resolve': 13.2.1_rollup@2.72.1
   concurrently: 7.1.0
@@ -75,34 +75,34 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@angular/common/13.3.5_@angular+core@13.3.5+rxjs@7.5.5:
-    resolution: {integrity: sha512-teG+itdlw2sOMwYeXkeFe8h32SsNqN0qHHz/v6I9qKHgCLkC/or8A7NtsoCwYSTymIEJJ7DZ1w9VWhM7DSYd1w==}
+  /@angular/common/13.3.7_@angular+core@13.3.7+rxjs@7.5.5:
+    resolution: {integrity: sha512-Aq910YxeW8WNQ3o5dBxYXK32TJtknL4cMCTXxbUU1G/5xnZq7x0zc2isKnT1kkh0EjtvNUzbKxh4ikWBo8OL4Q==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/core': 13.3.5
+      '@angular/core': 13.3.7
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 13.3.5_rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 2.4.0
     dev: true
 
-  /@angular/compiler-cli/13.3.5_b07c62e2cc9b87cabff59ee153cd6f69:
-    resolution: {integrity: sha512-H7A+MZcbB4g5fa6O4giYgrCG1h5whJfIxr4txDtDfolygzwRzqH1PSMfjW/jYyIpaH6XqXMSDHvbXRFGKstboA==}
+  /@angular/compiler-cli/13.3.7_43b3a48857112947fff968eec096951b:
+    resolution: {integrity: sha512-Flr8uvdMx/PrCXsGCBOTEpDW1zF589xAcioT1ittcAPDGsbuXvqeE6Gk/otwcl6JCjYEHmWcxtgspWxgmLFgYg==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 13.3.5
+      '@angular/compiler': 13.3.7
       typescript: '>=4.4.2 <4.7'
     dependencies:
-      '@angular/compiler': 13.3.5
+      '@angular/compiler': 13.3.7
       '@babel/core': 7.17.8
       chokidar: 3.5.3
       convert-source-map: 1.8.0
       dependency-graph: 0.11.0
       magic-string: 0.26.1
       reflect-metadata: 0.1.13
-      semver: 7.3.6
+      semver: 7.3.7
       sourcemap-codec: 1.4.8
       tslib: 2.4.0
       typescript: 4.6.4
@@ -111,15 +111,15 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/13.3.5:
-    resolution: {integrity: sha512-iSQlYevMk5glwZSXTXf2GytykqZWdK3Rr8heIvEPqd8n88MSB3w1KnDc1fnHLF950q/nUR9K+3r4wWPwc8J2IQ==}
+  /@angular/compiler/13.3.7:
+    resolution: {integrity: sha512-840eWcLrWnrk2JP1VOdWWCampd2wRU5eyVLK5Ksv9tqw8WqBW/+kDgen9ubPpohQRpro92l6xStcBRYLhXDTZQ==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     dependencies:
       tslib: 2.4.0
     dev: true
 
-  /@angular/core/13.3.5_rxjs@7.5.5:
-    resolution: {integrity: sha512-lf+Be8dDRvz8J+QFR2RxS3BBfgGM4eWq4bI1+k/aqDnM6OW4pQXdq8Lzae8SxN48u1NxB1M/1bbc9LcrChrj2Q==}
+  /@angular/core/13.3.7_rxjs@7.5.5:
+    resolution: {integrity: sha512-J3fwnue/Mc0LWMk5wTDl56N42P6IxGS2+BLDZmTV5sG9nYCM/dQvIyYIys/RKsQrA0+UbusWesEZDRYWG5zTYg==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
@@ -129,32 +129,32 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@angular/forms/13.3.5_5c5944ef1c3b5c8364844f4272aa3b98:
-    resolution: {integrity: sha512-jCxxAwf4HkDmKE76/yQmTsbqW3jsxiKyPy32Nh6Bt4r/ww8VDv+sv5YdYNuvvZcuuQ70K+/EPnKFpQgYttvS8A==}
+  /@angular/forms/13.3.7_0224d8b42ede6760f9a75cbd01734008:
+    resolution: {integrity: sha512-yzf+arPn/ycLgSLOUIV1S43vO4ZM3xMoKX3Isnr/22GWzN7K+BWkR85rgTN8lAlaWVxC67vTvNMw2qiSfYfAgQ==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/common': 13.3.5
-      '@angular/core': 13.3.5
-      '@angular/platform-browser': 13.3.5
+      '@angular/common': 13.3.7
+      '@angular/core': 13.3.7
+      '@angular/platform-browser': 13.3.7
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/common': 13.3.5_@angular+core@13.3.5+rxjs@7.5.5
-      '@angular/core': 13.3.5_rxjs@7.5.5
+      '@angular/common': 13.3.7_@angular+core@13.3.7+rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 2.4.0
     dev: true
 
-  /@angular/router/13.3.5_5c5944ef1c3b5c8364844f4272aa3b98:
-    resolution: {integrity: sha512-3yUNyBpUi0KUKP91a3dVQsr9Jfjs4wGxpiFYb3apc7lKT5R1LJqt2O0EchjOgvFyJ6TDOemdCAzKgvSRkDxpMw==}
+  /@angular/router/13.3.7_0224d8b42ede6760f9a75cbd01734008:
+    resolution: {integrity: sha512-Im2xPKpCDSQLNB1cxYXCq8ffdTMY4teSfPQWWesguCEU1R6OLeTPJ8K1PbX5LSSvs4rDU8ZQdeglnrGGs8qeuw==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/common': 13.3.5
-      '@angular/core': 13.3.5
-      '@angular/platform-browser': 13.3.5
+      '@angular/common': 13.3.7
+      '@angular/core': 13.3.7
+      '@angular/platform-browser': 13.3.7
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/common': 13.3.5_@angular+core@13.3.5+rxjs@7.5.5
-      '@angular/core': 13.3.5_rxjs@7.5.5
+      '@angular/common': 13.3.7_@angular+core@13.3.7+rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 2.4.0
     dev: true
@@ -387,20 +387,20 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@ngxs/devtools-plugin/3.7.3_5b4c2284b75a459b1f4f4b7a9a3cfb57:
+  /@ngxs/devtools-plugin/3.7.3_436e7616a362f6ff92466028e5c86653:
     resolution: {integrity: sha512-zkF2OyZKyXW8s/+WZZJgLbWpEguoDAA+EG9qWa/jlysRicYGDVCNZyoxZre4V9BkjwHvY+dQzcDHX4/Ng+Rf5w==}
     peerDependencies:
       '@angular/core': '>=6.1.0 <14.0.0'
       '@ngxs/store': ^3.7.3 || ^3.7.3-dev
       rxjs: '>=6.5.5'
     dependencies:
-      '@angular/core': 13.3.5_rxjs@7.5.5
-      '@ngxs/store': 3.7.3_@angular+core@13.3.5+rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
+      '@ngxs/store': 3.7.3_@angular+core@13.3.7+rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 1.14.1
     dev: true
 
-  /@ngxs/form-plugin/3.7.3_7efea90737ef2291910b34016c85c385:
+  /@ngxs/form-plugin/3.7.3_8825c0f23286d0d920fabf1c3d89a84f:
     resolution: {integrity: sha512-P4yfW/JO29I3qJIVYDO+TRZ8WbsJNHYKeQct/hN047uBB/X93By3eeItgwbU7oe4Khv3cRt+37RuJcgw9IAjLw==}
     peerDependencies:
       '@angular/core': '>=6.1.0 <14.0.0'
@@ -408,27 +408,27 @@ packages:
       '@ngxs/store': ^3.7.3 || ^3.7.3-dev
       rxjs: '>=6.5.5'
     dependencies:
-      '@angular/core': 13.3.5_rxjs@7.5.5
-      '@angular/forms': 13.3.5_5c5944ef1c3b5c8364844f4272aa3b98
-      '@ngxs/store': 3.7.3_@angular+core@13.3.5+rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
+      '@angular/forms': 13.3.7_0224d8b42ede6760f9a75cbd01734008
+      '@ngxs/store': 3.7.3_@angular+core@13.3.7+rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 1.14.1
     dev: true
 
-  /@ngxs/logger-plugin/3.7.3_5b4c2284b75a459b1f4f4b7a9a3cfb57:
+  /@ngxs/logger-plugin/3.7.3_436e7616a362f6ff92466028e5c86653:
     resolution: {integrity: sha512-jLNwq5hJw7W0nS7J215L1k+94jOaiI2kH41sOaN64ycuUx15FiMNJgOIj2ZqSTIaxNlacPWzcG3tZGr/FZ5Lzg==}
     peerDependencies:
       '@angular/core': '>=6.1.0 <14.0.0'
       '@ngxs/store': ^3.7.3 || ^3.7.3-dev
       rxjs: '>=6.5.5'
     dependencies:
-      '@angular/core': 13.3.5_rxjs@7.5.5
-      '@ngxs/store': 3.7.3_@angular+core@13.3.5+rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
+      '@ngxs/store': 3.7.3_@angular+core@13.3.7+rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 1.14.1
     dev: true
 
-  /@ngxs/router-plugin/3.7.3_fe504fa8cd1b54d6268a692a702862fe:
+  /@ngxs/router-plugin/3.7.3_778ac152caecb5578775145fda6d9209:
     resolution: {integrity: sha512-KeerQ1h3We3kKENQboJVID/39eKbhfAxZ9JBUcl9WVHjQoOShOdocNQ/34neReJEzW5VTToM7MQt0tDmN48Eig==}
     peerDependencies:
       '@angular/core': '>=6.1.0 <14.0.0'
@@ -436,46 +436,46 @@ packages:
       '@ngxs/store': ^3.7.3 || ^3.7.3-dev
       rxjs: '>=6.5.5'
     dependencies:
-      '@angular/core': 13.3.5_rxjs@7.5.5
-      '@angular/router': 13.3.5_5c5944ef1c3b5c8364844f4272aa3b98
-      '@ngxs/store': 3.7.3_@angular+core@13.3.5+rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
+      '@angular/router': 13.3.7_0224d8b42ede6760f9a75cbd01734008
+      '@ngxs/store': 3.7.3_@angular+core@13.3.7+rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 1.14.1
     dev: true
 
-  /@ngxs/storage-plugin/3.7.3_5b4c2284b75a459b1f4f4b7a9a3cfb57:
+  /@ngxs/storage-plugin/3.7.3_436e7616a362f6ff92466028e5c86653:
     resolution: {integrity: sha512-NSQdOJ2WKhRXY++UaXeuGIxTW4V3x2vunRutS2O28y7NViWwOz06SpwnD9McU868G6R0xxcmEiZvj8EYBMZuaQ==}
     peerDependencies:
       '@angular/core': '>=6.1.0 <14.0.0'
       '@ngxs/store': ^3.7.3 || ^3.7.3-dev
       rxjs: '>=6.5.5'
     dependencies:
-      '@angular/core': 13.3.5_rxjs@7.5.5
-      '@ngxs/store': 3.7.3_@angular+core@13.3.5+rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
+      '@ngxs/store': 3.7.3_@angular+core@13.3.7+rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 1.14.1
     dev: true
 
-  /@ngxs/store/3.7.3_@angular+core@13.3.5+rxjs@7.5.5:
+  /@ngxs/store/3.7.3_@angular+core@13.3.7+rxjs@7.5.5:
     resolution: {integrity: sha512-JjATXC7FsxxQu2SaayP/iLe4O+5/RkRov3/J7WkaQmV6/JWFNkkdOwbEa6pDbh/po0JO7DHHMk3huIUNpDu67g==}
     peerDependencies:
       '@angular/core': '>=6.1.0 <14.0.0'
       rxjs: '>=6.5.5'
     dependencies:
-      '@angular/core': 13.3.5_rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 1.14.1
     dev: true
 
-  /@ngxs/websocket-plugin/3.7.3_5b4c2284b75a459b1f4f4b7a9a3cfb57:
+  /@ngxs/websocket-plugin/3.7.3_436e7616a362f6ff92466028e5c86653:
     resolution: {integrity: sha512-LMHWun+uBHFHhspdii6i3q4G/4i64XyCDiLV7SvjWbTbkqVow1/OIR0mFqrWDCrRMa2rhgwaOIBx3D/Loagvyg==}
     peerDependencies:
       '@angular/core': '>=6.1.0 <14.0.0'
       '@ngxs/store': ^3.7.3 || ^3.7.3-dev
       rxjs: '>=6.5.5'
     dependencies:
-      '@angular/core': 13.3.5_rxjs@7.5.5
-      '@ngxs/store': 3.7.3_@angular+core@13.3.5+rxjs@7.5.5
+      '@angular/core': 13.3.7_rxjs@7.5.5
+      '@ngxs/store': 3.7.3_@angular+core@13.3.7+rxjs@7.5.5
       rxjs: 7.5.5
       tslib: 1.14.1
     dev: true
@@ -2653,12 +2653,6 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lru-cache/7.8.0:
-    resolution: {integrity: sha512-AmXqneQZL3KZMIgBpaPTeI6pfwh+xQ2vutMsyqOu1TBdEXFZgpG/80wuJ531w2ZN7TI0/oc8CPxzh/DKQudZqg==}
-    engines: {node: '>=12'}
-    deprecated: Please update to latest patch version to fix memory leak https://github.com/isaacs/node-lru-cache/issues/227
-    dev: true
-
   /macos-release/3.0.1:
     resolution: {integrity: sha512-3l6OrhdDg2H2SigtuN3jBh+5dRJRWxNKuJTPBbGeNJTsmt/pj9PO25wYaNb05NuNmAsl435j4rDP6rgNXz7s7g==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
@@ -3488,14 +3482,6 @@ packages:
   /semver/6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
-    dev: true
-
-  /semver/7.3.6:
-    resolution: {integrity: sha512-HZWqcgwLsjaX1HBD31msI/rXktuIhS+lWvdE4kN9z+8IVT4Itc7vqU2WvYsyD6/sjYCt4dEKH/m1M3dwI9CC5w==}
-    engines: {node: ^10.0.0 || ^12.0.0 || ^14.0.0 || >=16.0.0}
-    hasBin: true
-    dependencies:
-      lru-cache: 7.8.0
     dev: true
 
   /semver/7.3.7:
